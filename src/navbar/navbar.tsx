@@ -34,7 +34,7 @@ export default function Navbar() {
       )}
       <span className="logo-wrap">
         <span className='logo'>
-          <img className='logo-img' src="/src/assets/logo.png" alt="logo" />
+          <img className='logo-img' src="/logo.png" alt="logo" />
         </span>
       </span>
       <ul className="main-navbar">

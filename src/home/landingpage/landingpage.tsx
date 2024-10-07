@@ -49,11 +49,8 @@ export default function Landingpage() {
                 </div>
             </section>
             <section className="l-text-wrap l-right" >
-                {/* <div className="bubble right-bubble">
-                    <div className="bubble-before"></div>
-                </div> */}
                 <div className="l-image-wrap">
-                    <img className="l-image" src="/src/assets/car.png" />
+                    <img className="l-image" src="/car.png" />
                 </div>
             </section>
         </main>
@@ -84,7 +81,7 @@ export default function Landingpage() {
                 <div className="plan">
                     <div 
                       className="top-info-wrap" 
-                      style={{ backgroundImage: 'url(/src/assets/instructor2.jpg)' }}
+                      style={{ backgroundImage: 'url(/instructor2.jpg)' }}
                     >
                       <div className="top-info-before"></div>
                       <div className="top-info">
@@ -121,7 +118,7 @@ export default function Landingpage() {
                 <div className="plan">
                     <div 
                       className="top-info-wrap" 
-                      style={{ backgroundImage: 'url(/src/assets/instructor1.jpg)' }}
+                      style={{ backgroundImage: 'url(/instructor1.jpg)' }}
                     >
                       <div className="top-info-before"></div>
                       <div className="top-info">
