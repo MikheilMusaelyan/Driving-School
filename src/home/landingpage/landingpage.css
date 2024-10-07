@@ -274,62 +274,7 @@ footer {
     padding-right: 12px;
 }
 
-@media screen and (max-width: 800px){
-    .top-info-wrap:first-child{
-        background-position: 35% center;
-    }
-}
-@media screen and (max-width: 700px){
-    .title{
-        margin-top: 30px;
-    }
-    .plan{
-        margin: 10px 0;
-        width: 85%;
-        box-sizing: border-box;
-    }
-    .time-stamp{
-        padding: 5px;
-    }
-}
-@media screen and (max-width: 600px){
-    .top-info-wrap:first-child{
-        background-position: center;
-    }
-}
-@media screen and (max-width: 500px){
-    .interact{
-        width: 180px;
-        padding: 7px 0;
-        font-size: 15px;
-    }
-    .plan{
-        width: 100%;
-    }
-    .title{
-        font-size: 30px;
-        display: flex;
-        justify-content: center;
-    }
-    .title span{
-        text-align: center;
-        display: block;
-    }
-    .course-price{
-        font-size: 22px;
-    }
-    .title-wrap{
-        font-size: 17px;
-    }
-}
-@media screen and (max-width: 415px){
-    .plan{
-        width: 100%;
-    }
-    .title span{
-        width: 80%;
-    }
-}
+
 
 
 /* @media screen and (max-width: 800px){
@@ -410,8 +355,10 @@ footer {
     }
 }
 
-
 @media screen and (max-width: 800px){
+    .top-info-wrap:first-child{
+        background-position: 35% center;
+    }
     .landing-page{
         justify-content: center;
         flex-direction: column;
@@ -454,7 +401,25 @@ footer {
     }
 }
 
+@media screen and (max-width: 700px){
+    .title{
+        margin-top: 30px;
+    }
+    .plan{
+        margin: 10px 0;
+        width: 85%;
+        box-sizing: border-box;
+    }
+    .time-stamp{
+        padding: 5px;
+    }
+}
+
+
 @media screen and (max-width: 600px){
+    .top-info-wrap:first-child{
+        background-position: center;
+    }
     .l-image{
         width: 90%;
         padding-top: 50px;
@@ -465,6 +430,30 @@ footer {
     
 }
 @media screen and (max-width: 500px){
+    .interact{
+        width: 180px;
+        padding: 7px 0;
+        font-size: 15px;
+    }
+    .plan{
+        width: 100%;
+    }
+    .title{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .title span{
+        text-align: center;
+        display: block;
+    }
+    .course-price{
+        font-size: 22px;
+    }
+    .title-wrap{
+        font-size: 17px;
+    }
+
     .l-image{
         padding: 0;
         transform: translateX(10px);
@@ -489,6 +478,14 @@ footer {
         left: -100px;
         filter: blur(45px);
         -webkit-filter: blur(45px);
+    }
+}
+@media screen and (max-width: 415px){
+    .plan{
+        width: 100%;
+    }
+    .title span{
+        width: 80%;
     }
 }
 @media screen and (max-width: 300px){
