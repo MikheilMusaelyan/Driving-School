@@ -3,7 +3,6 @@ import Navbar from './navbar/navbar'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import Home from './home/home'
 import {useEffect} from 'react'
-import Login from './login/login'
 
 function App() {
   useEffect(() => {
@@ -24,7 +23,6 @@ function App() {
         <Navbar />
         
         <Routes>
-          <Route path='/login' element={<Login />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </Router>
