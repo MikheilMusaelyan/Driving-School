@@ -50,7 +50,7 @@ export default function Landingpage() {
             </section>
             <section className="l-text-wrap l-right" >
                 <div className="l-image-wrap">
-                    <img className="l-image" src="/car.png" />
+                    <img className="l-image" src="/toyota.png" />
                 </div>
             </section>
         </main>
